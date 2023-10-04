@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/arjypersonalvm/Documents/projects/c#/discordbot/discordbot.csproj": {}
+  },
+  "projects": {
+    "/home/arjypersonalvm/Documents/projects/c#/discordbot/discordbot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/arjypersonalvm/Documents/projects/c#/discordbot/discordbot.csproj",
+        "projectName": "discordbot",
+        "projectPath": "/home/arjypersonalvm/Documents/projects/c#/discordbot/discordbot.csproj",
+        "packagesPath": "/home/arjypersonalvm/.nuget/packages/",
+        "outputPath": "/home/arjypersonalvm/Documents/projects/c#/discordbot/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/arjypersonalvm/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "DSharpPlus": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "DSharpPlus.CommandsNext": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "DSharpPlus.Interactivity": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "NewtonSoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
